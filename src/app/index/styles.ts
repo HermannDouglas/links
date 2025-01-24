@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { colors } from '../../styles/colors';
+import { colors } from '@/styles/colors';
 
 export const styles = StyleSheet.create({
     container: {
@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
         flexDirection: 'column',
     },
     title: {
-        color: "colors.green[900]",
+        color: colors.green[900],
         fontSize: 22,
     },
 })
