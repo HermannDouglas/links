@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         fontSize: 22,
     },
     header: {
-        paddingHorizontal: 24,
+        paddingHorizontal: 10,
         width: '100%',
         flexDirection: 'row',
         justifyContent: 'space-between',
